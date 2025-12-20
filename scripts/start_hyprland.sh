@@ -11,4 +11,8 @@ echo "starting Hyprland..." >> $LOG
 # else
 #   exec env WLR_DRM_NO_ATOMIC=1 nvidia-run Hyprland
 # fi
+
+# export GDK_SCALE=2
+export GDK_DPI_SCALE=1.8
+
 exec Hyprland
